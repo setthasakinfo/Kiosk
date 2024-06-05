@@ -1,0 +1,12 @@
+{
+    "name": "raspberry-pi-pico-web-server",
+    "version": "1.0.0",
+    "description": "Web server for Raspberry Pi Pico data visualization",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}
