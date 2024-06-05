@@ -20,7 +20,7 @@
 
         // Function to fetch data from the server
         function fetchData() {
-            fetch('http://your-web-server-url.com')
+            fetch('https://kiosk-mqtt.netlify.app')
                 .then(response => response.json())
                 .then(data => updateData(data.data))
                 .catch(error => console.error('Error fetching data:', error));
